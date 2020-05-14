@@ -32,7 +32,7 @@
 
     <a-assets>
       <!-- Credit to Poly by Google for the model: https://poly.google.com/view/dA5osnS0Rzj -->      
-      <a-asset-item id="notify" src="notify.glb"></a-asset-item>
+
 
       <a-asset-item id="wheel" src="wheel2.glb"></a-asset-item>
     </a-assets>
@@ -47,11 +47,7 @@
 
     <a-light type="ambient" intensity="1"></a-light>
 
-    <!-- Note: "name:" must be set to the name of the image target uploaded to the 8th Wall Console -->
-    <a-entity xrextras-named-image-target="name: environment">
-      <!-- Add a child entity that can be rotated independently of the image target. -->
-      <a-entity xrextras-one-finger-rotate gltf-model="#notify" ></a-entity>
-    </a-entity>
+  
 
      <!-- Note: "name:" must be set to the name of the image target uploaded to the 8th Wall Console -->
      <a-entity xrextras-named-image-target="name: parking">
